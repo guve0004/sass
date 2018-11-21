@@ -1,0 +1,49 @@
+// _variables.scss
+
+/***********************************************
+                COLOUR NOTES
+light blue  #C7F7FF
+med blue    #89C0C9
+dark blue   #3a5E63
+
+light brown #C9A689
+dark brown  #7C593C
+
+light grey  #d4d4d4
+dark grey   #222
+
+                DEFAULTS
+***********************************************/
+
+$lb:#C7F7FF;
+$mb:#89C0C9;
+$db:#3a5E63;
+
+$lr:#C9A689;
+$dr:#7C593C;
+
+$lg:#d4d4d4;
+$dg:#222;
+
+$w:#fff;
+
+// font stacks $fontFamilyS or SS
+
+$fontFamilySS: 'Josefin Sans', ‘Trebuchet MS’, Helvetica, sans-serif; /* default for whole page */
+
+$fontFamilyS: Cardo, ‘Palatino Linotype’, ‘Book Antiqua’, Palatino, serif; /* serif for the headings */
+
+// font sizes $fSize...
+
+$fSize16: 16px;
+$fSize14: 1.414rem;
+$fSize7: 7rem;
+$fSize39: 3.998rem;
+$fSize19: 1.999rem;
+$fSize1: 1rem;
+$fSize4: 4rem;
+$fSize28: 2.8727rem;
+
+// whatever else
+
+

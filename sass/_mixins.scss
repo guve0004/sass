@@ -1,0 +1,35 @@
+// _mixins.scss
+
+// @include grid();
+// @include grid("some value);
+// @include grid ("some"), "thing", "else");
+
+// "4x1", "3x1", "2x2", "3x2", default one column
+// @include grid("3x1);
+
+//@mixin grid($size: "1"){
+//    @if $size == "4x1" {
+//        grid-template-columns: repeat(4, 1fr);
+//    }else @if $size == "3x1" {
+//        grid-template-columns: repeat(3, 1fr);
+//    } else @if $size == "2x2" {
+//        grid-template-columns: repeat(2, 1fr);
+//        grid-template-areas: "a b" "c d";
+//    }else @if $size == "3x2" {
+//        grid-template-columns: repeat(3, 1fr);
+//        grid-template-areas: "a b c" "d e f";
+//    }else{
+//        grid-template-columns: 1fr;
+//    }
+//}
+
+// Adjusting the size of flex, default is 100%
+@mixin fBasis($basis: 100%){
+    flex-basis: $basis;
+}
+
+// Using three font colors with mixin and content
+@mixin clr($db: $dr){
+    color: $db;
+    @content;
+}
