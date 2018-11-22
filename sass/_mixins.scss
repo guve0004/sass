@@ -29,6 +29,7 @@
 }
 
 // Using three font colors with mixin and content
+// dark brown ($dr) will be assigned by @include clr, // while dark gray ($dg) will be assigned by @include // clr($dg), and the dark blue ($db) will stay same for the font-colors.
 @mixin clr($db: $dr){
     color: $db;
     @content;
